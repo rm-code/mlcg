@@ -1,0 +1,45 @@
+[
+    ["Allianz", "Sobald ein Spieler seine Absicht erklärt, eine Allianz-Karte zu spielen, kann jeder Spieler dabei helfen, die Kosten dieser karte zu bezahlen."],
+    ["Anstacheln X", "Sobald ein Spieler eine Karte mit dem Schlüsselwort Anstacheln X aufdeckt, platziert der Spieler X Bedrohung auf dem Hauptplan."],
+    ["Ansturm", "Sobald ein Charakter einen Basis Widerstand gegen einen Plan mit dem Schlüsselwort Ansturm durchführt, verwendet der Charakter seinen ANG-Wert anstelle seines WID-Wertes."],
+    ["Anwendungen<br />(X Art)", "Sobald eine Karte mit diesem Schlüsselwort ins Spiel kommt, werden X Universalmarker aus dem Markervorrat auf die Karte gelegt. Das Wort nach dem Wert legt die Art der Anwendungen der Karte fest und gibt ihnen eine Bezeichnung.\n\nJede Karte mit diesem Schlüsselwort hat auch eine Fähigkeit, deren Kosten zumindest teilweise mit der soeben festgelegten Anwendungsart zu tun haben. Sobald eine solche Fähigkeit eine Anwendung ausgibt, muss ein Marker dieser Art von der Karte entfernt werden.\n\n Nachdem der letzte Marker einer Karte mit dem Schlüsselwort Anwendung ausgegeben (und der Effekt abgehandelt) worden ist, wird die Karte abgelegt."],
+    
+    ["Bedingung (Ressourcen)", "Eine Karte mit dem Schlüsselwort Bedingung kann nur gespielt werden, wenn beim Bezahlen der Kosten dieser Karte jede Ressource des angegebenen Typs ausgegeben wird."],
+    
+    ["Dauerhaft", "Karten mit dem Schlüsselwort Dauerhaft können das Spiel nicht verlassen."],
+    ["Durchdringend", "Angriffe mit dem Schlüsselwort Durchdringend legen Zäh-Statuskarten vom angegriffenen Charakter ab, bevor Schaden zugefügt wird."],
+    
+    ["Eingeschränkt", "Ein Spieler darf zu keinem Zeitpunkt mehr als zwei eingeschränkte Karten im Spiel kontrollieren."],
+    ["Erstschlag", "Nachdem dieser Gegner einen Spieler in einen Kampf verwickelt hat, greift er den Spieler sofort an, falls der Spieler sich in seiner Heldengestalt befindet."],
+
+    ["Fernkampf", "Angriffe mit dem Schlüsselwort Fernkampf ignorieren das Schlüsselwort Vergeltung."],
+
+    ["Gestählt", "Charaktere mit dem Schlüsselwort Gestählt können nicht betäubt oder verwirrt werden."],
+    ["Gestalt", "Eine Karte mit diesem Schlüsselwort verleiht einer Identität eine einzigartige Gestalt."],
+   
+    ["Hindernis X", "Sobald eine Karte mit dem Schlüsselwort Hindernis X ins Spiel kommt, wird X Bedrohung auf der Karte platziert."],
+
+    ["Kurzzeitig", "Eine Karte mit dem Schlüsselwort Kurzzeitig muss am Ende der Runde aus dem Spiel abgelegt werden."],
+    
+    ["Nachrüsten", "Nachdem eine Begegnungskarte mit diesem Schlüsselwort aufgedeckt worden ist, deckt der Spieler, der die Karte abhandelt, eine zusätzliche Begegnungskarte auf. Die Abhandlung der ursprünglichen Karte muss zuerst beendet sein, bevor die zusätzliche Karte aufgedeckt wird."],
+    
+    ["Overkill", "Falls ein Verbündeter verwendet wird, um gegen einen Angriff mit Overkill zu verteidigen, wird der überschüssige Schaden des Angriffs (Schaden, der über die verbleibenden Lebenspunkte des Verbündeten hinausgeht) dem Helden des Spielers zugefügt, der den Verbündeten kontrolliert, falls möglich.\n\nFalls ein Scherge durch einen Angriff mit Overkill besiegt wird, wird überschüssiger Schaden des Angriffs (Schaden, der über die verbleibenden Lebenspunkte des Schergen hinausgeht) dem Schurken zugefügt."],
+    
+    ["Patrouille", "Solange ein Scherge mit dem Schlüsselwort Patrouille mit einem Spieler im Kampf ist, kann der Spieler keinen Widerstand gegen den Hauptplan leisten."],
+    
+    ["Schurkisch", "Sobald ein Scherge mit dem Schlüsselwort Schurkisch aktiviert wird, wird ihm eine Boost-Karte gegeben."],
+    ["Sieg X", "Sobald eine Karte mit dem Schlüsselwort Sieg X besiegt wird, wird sie dem Siegpunktestapel hinzugefügt."],
+    ["Spielaufbau", "Karten mit dem Schlüsselwort Spielaufbau sind zu Beginn der Partie im Spiel."],
+    ["Standhaft", "Ein Charakter mit dem Schlüsselwort Standhaft kann nicht betäubt oder verwirrt werden, außer er hat 2 der gleichen Statuskarten."],
+
+    ["Teamwork", "Karten mit dem Schlüsselwort Teamwork können nicht gespielt werden, bis beide durch das Schlüsselwort aufgelistete Charaktere im Spiel sind."],
+
+    ["Vergeltung X", "Nachdem dieser Charakter angegriffen worden ist, wird dem Angreifer X Schaden zugefügt. Der Charakter muss den Angriff überleben, um diesen Schaden zufügen zu können. (X ist der Wert hinter dem Schlüsselwort.)"],
+    ["Verknüpft (Kartenname)", "Karten mit dem Schlüsselwort Verknüpft werden beiseitegelegt, bis die in Klammern angegebene Karte die verknüpfte Karte ins Spiel bringt."],
+
+    ["Wache", "Solange ein beliebiger Scherge mit diesem Schlüsselwort mit einem Spieler im Kampf ist, kann er Schurken ohne dieses Schlüsselwort nicht angreifen."],
+    ["Wagnis", "Solange ein Spieler eine Karte mit diesem Schlüsselwort abhandelt, kann er sich nicht mit anderen Spielern beraten und andere Spieler können keine Karten spielen oder Fähigkeiten auslösen."],
+
+    ["Zähigkeit", "Sobald dieser Charakter ins Spiel kommt, wird eine Zäh Statuskarte auf ihn gelegt."],
+    ["Zusammenarbeit (Merkmal)", "Nachdem ein Scherge mit dem Schlüsselwort Zusammenarbeit ins Spiel gekommen ist und einen Spieler in einen Kampf verwickelt hat, wird über­ prüft, ob mindestens ein weiterer Scherge mit demselben angegebenen Merkmal im Spiel ist. Falls dies der Fall ist, wird jeder Scherge mit dem Schlüsselwort Zusammen­ arbeit und dem angegebenen Merkmal gegen den Spieler aktiviert, mit dem er im Kampf ist."]
+]
