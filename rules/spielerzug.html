@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Informationen - Marvel Champions - Referenz</title>
+        <title>Spielerzug - Marvel Champions - Referenz</title>
 
 
         <!-- Custom HTML head -->
@@ -12,31 +12,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -88,7 +88,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -148,19 +148,63 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="informationen"><a class="header" href="#informationen">Informationen</a></h1>
-<p>Dies ist eine inoffizielle Online-Referenz für die deutsche Variante von <a href="https://www.asmodee.de/produkte/marvel-champions-das-kartenspiel">Marvel Champions</a>. Sie basiert auf Version 1.6DE des offiziellen <a href="https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-online-referenzhandbuch-v1-6-de.pdf">Online-Referenzhandbuchs</a>.</p>
-<p>Die Online-Referenz lässt sich leicht durchsuchen und ermöglicht so das schnelle Naschlagen einzelner Regeln während des Spiels.</p>
-<p>Durch drücken der <code>S</code> Taste kann man direkt in das Suchfeld springen.</p>
+                        <h1 id="spielerzug"><a class="header" href="#spielerzug">Spielerzug</a></h1>
+<p>Ein Spieler darf in seinem Zug die folgenden Optionen in beliebiger Reihenfolge durchführen. Jede Option (mit Ausnahme des Gestaltwechsels) darf er so oft durchführen, wie er möchte, solange er die notwendigen Karten und Ressourcen hat, um die Kosten zu bezahlen.</p>
+<ul>
+<li>
+<p><strong>Gestaltwechsel:</strong> Der Spieler darf die Gestalt vom Helden zum Alter Ego oder vom Alter Ego zum Helden wechseln. <strong>Er darf diese Option nur ein Mal pro Zug durchführen</strong>.</p>
+</li>
+<li>
+<p><strong>Spielen:</strong> Der Spieler darf eine Verbündeten-, Upgrade-, Spieler Nebenplan oder Vorteilskarte von seiner Hand spielen.</p>
+</li>
+<li>
+<p><strong>Basiskraft verwenden:</strong> Der Spieler darf die Basiskraft Erholung seines Alter Egos (falls er in seiner Alter Ego Gestalt ist), oder die Basiskraft Angriff oder die Basiskraft Widerstand seines Helden verwenden (falls er in seiner Heldengestalt ist).</p>
+</li>
+<li>
+<p><strong>Verbündeten verwenden:</strong> Der Spieler darf eine Verbündetenkarte unter seiner Kontrolle verwenden, um einen Gegner anzugreifen oder gegen einen Plan Widerstand zu leisten.</p>
+</li>
+<li>
+<p><strong>„Aktion“-Kartenfähigkeit auslösen:</strong> Der Spieler darf auf einer der folgenden Karten eine Fähigkeit auslösen:</p>
+<ol>
+<li>auf einer Karte im Spiel, die er kontrolliert</li>
+<li>auf einer Begegnungskarte im Spiel</li>
+<li>auf einer beliebigen Karte im Spiel, die dem Spieler erlaubt, die Aktionsfähigkeit auszulösen</li>
+<li>auf einer Ereigniskarte auf seiner Hand (indem der Spieler das Ereignis spielt)</li>
+</ol>
+<ul>
+<li>Falls der Aktionsfähigkeit Held oder Alter Ego vorangestellt ist, muss er in der angegebenen Gestalt sein, um die Fähigkeit auslösen zu können.</li>
+</ul>
+</li>
+<li>
+<p><strong>Um Hilfe bitten:</strong> Ein Spieler darf einen anderen Spieler bitten, eine beliebige <strong>„Aktion“</strong>, die der andere Spieler in seinem Zug auslösen könnte, auszulösen. Der andere Spieler entscheidet dann, ob er die Fähigkeit auslöst oder nicht. (Ein anderer Spieler kann auch anbieten, eine Aktion im Zuges des aktiven Spielers zu verwenden.)</p>
+</li>
+</ul>
+<!--TODO-->
+<p><strong>Siehe auch:</strong>
+<a href="./ausgel%C3%B6ste_f%C3%A4higkeit.html">Ausgelöste Fähigkeit</a>,
+<a href="./basiskraft.html">Basiskraft</a>,
+<a href="./begegnungskarte.html">Begegnungskarte</a>,
+<a href="./besitz_und_kontrolle.html">Besitz und Kontrolle</a>,
+<a href="./ereignis.html">Ereignis</a>,
+<a href="./gestalt-gestalt_wechseln.html">Gestalt, Gestalt wechseln</a>,
+<a href="./spielen-ins-spiel-bringen.html">Spielen, ins Spiel bringen</a>,
+<a href="./spieler.html">Spieler</a>,
+<a href="./spielerphase.html">Spielerphase</a>,
+Upgrade,
+Verbündeter,
+Vorteil</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="appendices/ii_setup.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../rules/spielerphase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../rules/spielmodi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -168,10 +212,13 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="appendices/ii_setup.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../rules/spielerphase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../rules/spielmodi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -200,13 +247,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 

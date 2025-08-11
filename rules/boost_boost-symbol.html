@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Informationen - Marvel Champions - Referenz</title>
+        <title>Boost, Boost-Symbol - Marvel Champions - Referenz</title>
 
 
         <!-- Custom HTML head -->
@@ -12,31 +12,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -88,7 +88,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -148,19 +148,39 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="informationen"><a class="header" href="#informationen">Informationen</a></h1>
-<p>Dies ist eine inoffizielle Online-Referenz für die deutsche Variante von <a href="https://www.asmodee.de/produkte/marvel-champions-das-kartenspiel">Marvel Champions</a>. Sie basiert auf Version 1.6DE des offiziellen <a href="https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-online-referenzhandbuch-v1-6-de.pdf">Online-Referenzhandbuchs</a>.</p>
-<p>Die Online-Referenz lässt sich leicht durchsuchen und ermöglicht so das schnelle Naschlagen einzelner Regeln während des Spiels.</p>
-<p>Durch drücken der <code>S</code> Taste kann man direkt in das Suchfeld springen.</p>
+                        <h1 id="boost-boost-symbol-"><a class="header" href="#boost-boost-symbol-">Boost, Boost-Symbol (<span><img src="../img/icons_boost.png" width="25"></span>)</a></h1>
+<p>Jedes Mal, wenn der Schurke angreift oder den Plan vorantreibt, wird dem Schurken eine verdeckte Karte vom Begegnungsdeck als Boost-Karte gegeben. Schergen mit dem Schlüsselwort Schurkisch wird ebenfalls eine Boost-Karte gegeben, sobald sie aktiviert werden.</p>
+<p>Während der Aktivierung des Schurken wird jede Boost-Karte auf dem Gegner nacheinander umgedreht (falls der Schurke angreift, geschieht dies, nachdem ein möglicher Verteidiger erklärt worden ist). Die Anzahl der Boost-Symbole auf jeder Karte wird für diese Aktivierung zum ANG-Wert des Gegners (falls er angreift) oder zum PLA-Wert des Gegners (falls er den Plan vorantreibt) hinzugezählt. Die Boost-Symbole befinden sich unten rechts auf der Karte.</p>
+<p>Falls sich im Boost-Feld ein Stern-Symbol befindet, bedeutet das, dass die Karte eine Boost-Fähigkeit besitzt, die im Textfeld der Karte unterhalb der Trennlinie beschrieben wird. Sie wird gelesen und abgehandelt, sobald die Karte umgedreht wird.</p>
+<ul>
+<li>Ein Stern-Symbol gilt selbst nicht als Boost-Symbol und trägt nicht zum ANG- oder PLA-Wert des Schurken bei.</li>
+<li>Auf einer Karte, die als Boost-Karte abgehandelt wird, ist nur der Fähigkeitstext unterhalb der Trennlinie aktiv.</li>
+<li>Schaden, der durch eine Boost-Fähigkeit zugefügt wird, gilt nicht als Schaden, der durch die Aktivierung während der Abhandlung der Boost-Fähigkeit zugefügt wird.</li>
+<li>Falls zusätzliche Boost-Karten für eine Aktivierung abgehandelt werden, sind die Boost-Symbole kumulativ und alle Boost-Fähigkeiten auf diesen Karten werden abgehandelt.</li>
+<li>Nachdem eine Boost-Karte für eine Aktivierung angewendet worden ist, wird sie abgelegt.</li>
+<li>Falls einem Gegner eine Boost-Karte außerhalb seiner eigenen Aktivierung zugeteilt wird, verbleibt sie verdeckt beim Gegner, bis dieser aktiviert wird.
+<ul>
+<li>Falls dieser Gegner ein Schurke oder ein Scherge mit dem Schlüsselwort Schurkisch ist, erhält er zu Beginn seiner Aktivierung ganz normal eine weitere Boost-Karte.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Siehe auch:</strong>
+<a href="./angriff_gegner.html">Angriff (Gegner-Aktivierung)</a>,
+Plan vorantreiben (Gegner-Aktivierung),
+Schurkisch,
+Stern-Symbol</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="appendices/ii_setup.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../rules/bezug_nehmende_fähigkeit.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../rules/charakter.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -168,10 +188,13 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="appendices/ii_setup.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../rules/bezug_nehmende_fähigkeit.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../rules/charakter.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -200,13 +223,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 

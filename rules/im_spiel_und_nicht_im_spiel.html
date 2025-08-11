@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Informationen - Marvel Champions - Referenz</title>
+        <title>Im Spiel und nicht im Spiel - Marvel Champions - Referenz</title>
 
 
         <!-- Custom HTML head -->
@@ -12,31 +12,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -88,7 +88,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -148,19 +148,49 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="informationen"><a class="header" href="#informationen">Informationen</a></h1>
-<p>Dies ist eine inoffizielle Online-Referenz für die deutsche Variante von <a href="https://www.asmodee.de/produkte/marvel-champions-das-kartenspiel">Marvel Champions</a>. Sie basiert auf Version 1.6DE des offiziellen <a href="https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-online-referenzhandbuch-v1-6-de.pdf">Online-Referenzhandbuchs</a>.</p>
-<p>Die Online-Referenz lässt sich leicht durchsuchen und ermöglicht so das schnelle Naschlagen einzelner Regeln während des Spiels.</p>
-<p>Durch drücken der <code>S</code> Taste kann man direkt in das Suchfeld springen.</p>
+                        <h1 id="im-spiel-und-nicht-im-spiel"><a class="header" href="#im-spiel-und-nicht-im-spiel">Im Spiel und nicht im Spiel</a></h1>
+<p>Eine Karte ist entweder im Spiel oder nicht im Spiel, abhängig von ihrem Spielzustand.</p>
+<p>Falls sich eine Karte „im Spiel“ befindet, ist ihr Text aktiv und sie kann das Spiel beeinflussen.</p>
+<ul>
+<li>Spielerkarten, die sich im Spiel befinden: die offene Seite der Identitätskarte sowie alle offenen Upgrade-, Vorteils- und Verbündetenkarten, die ins Spiel gekommen sind (<em>gespielt, ins Spiel gebracht usw.</em>).</li>
+<li>Begegnungskarten, die sich im Spiel befinden: die offene Seite der obersten Karte des Schurkendecks, die offene Seite der obersten Karte des Hauptplandecks sowie alle offenen Anhang-, Nebenplan-, Schergen-, Umgebung- und Verpflichtung-Karten, die ins Spiel gekommen sind (<em>gespielt, ins Spiel gebracht usw.</em>).</li>
+<li>Eine Karte kommt ins Spiel, sobald sie von einer nicht im Spiel befindlichen Zone in eine Zone im Spiel verschoben wird.</li>
+<li>Kartenfähigkeiten interagieren nur mit Karten, die im Spiel sind, und können nur auf diese zielen, es sei denn, der Fähigkeitstext bezieht sich ausdrücklich auf eine Zone, die sich nicht im Spiel befindet.</li>
+<li>Kartenfähigkeiten auf allen Kartentypen mit Ausnahme von Ereigniskarten und Verratskarten können nur eingeleitet werden oder das Spiel beeinflussen, solange sie im Spiel sind, es sei denn, sie besagen ausdrücklich, dass sie von einer nicht im Spiel befindlichen Zone aus verwendet werden.</li>
+<li>Falls eine Karte doppelseitig ist (mit Spieltext auf beiden Seiten), befindet sich die offene Seite der Karte im Spiel.</li>
+</ul>
+<p>Falls sich eine Karte „nicht im Spiel“ befindet, ist ihr Text inaktiv und sie kann das Spiel nicht beeinflussen.</p>
+<ul>
+<li>Ereigniskarten und Verratskarten hingegen werden immer aus einer Zone heraus abgehandelt, die sich nicht im Spiel befindet (<em>gemäß den Regeln, die für diese Kartentypen gelten</em>).</li>
+<li>Karten auf der Hand, im Deck und im Ablagestapel eines Spielers befinden sich nicht im Spiel.</li>
+<li>Karten im Begegnungsdeck, im Begegnungs-Ablagestapel, verdeckte Karten im Schurkendeck und im Hauptplandeck sowie einem Spieler verdeckt zugeteilte Begegnungskarten befinden sich nicht im Spiel.</li>
+<li>Verdeckte Karten, die an Karten im Spiel angehängt sind, befinden sich nicht im Spiel.</li>
+<li>Alle Karten, die aus dem Spiel entfernt oder beiseite­ gelegt wurden, befinden sich ebenfalls nicht im Spiel.</li>
+<li>Eine Karte verlässt das Spiel, sobald sie von einer Zone im Spiel in eine nicht im Spiel befindliche Zone verschoben wird.</li>
+<li>Falls eine Karte doppelseitig ist (<em>mit Spieltext auf beiden Seiten</em>), befindet sich die verdeckte Seite der Karte nicht im Spiel.</li>
+</ul>
+<p><strong>Siehe auch:</strong>
+Beiseitelegen,
+<a href="./f%C3%A4higkeit-kartenf%C3%A4higkeit.html">Fähigkeit</a>,
+Ins Spiel bringen,
+Ins Spiel kommen,
+Siegpunktestapel,
+Spiel verlassen,
+Spielein­schränkungen und -berechtigungen,
+Spielen,
+Ziel</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="appendices/ii_setup.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../rules/im_kampf-in_einen_kampf_verwickeln.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../rules/in-spielerreihenfolge.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -168,10 +198,13 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="appendices/ii_setup.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../rules/im_kampf-in_einen_kampf_verwickeln.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../rules/in-spielerreihenfolge.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -200,13 +233,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 

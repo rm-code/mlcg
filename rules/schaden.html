@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Informationen - Marvel Champions - Referenz</title>
+        <title>Schaden - Marvel Champions - Referenz</title>
 
 
         <!-- Custom HTML head -->
@@ -12,31 +12,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -88,7 +88,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -148,19 +148,53 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="informationen"><a class="header" href="#informationen">Informationen</a></h1>
-<p>Dies ist eine inoffizielle Online-Referenz für die deutsche Variante von <a href="https://www.asmodee.de/produkte/marvel-champions-das-kartenspiel">Marvel Champions</a>. Sie basiert auf Version 1.6DE des offiziellen <a href="https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-online-referenzhandbuch-v1-6-de.pdf">Online-Referenzhandbuchs</a>.</p>
-<p>Die Online-Referenz lässt sich leicht durchsuchen und ermöglicht so das schnelle Naschlagen einzelner Regeln während des Spiels.</p>
-<p>Durch drücken der <code>S</code> Taste kann man direkt in das Suchfeld springen.</p>
+                        <h1 id="schaden"><a class="header" href="#schaden">Schaden</a></h1>
+<p><img src="../img/icons_schaden.png" alt="Schaden" width="50"></p>
+<p>Schaden senkt die Lebenspunkte eines Charakters. Falls ein Charakter null oder weniger verbleibende Lebenspunkte hat, ist er besiegt.</p>
+<ul>
+<li>Schaden an einer Identität oder einem Schurken wird auf einem Lebenspunktezähler festgehalten. Falls ein solcher Charakter Schaden nimmt, wird der Zähler um die Menge an Schaden gesenkt, die er genommen hat.</li>
+<li>Schaden an einem Verbündeten oder Schergen wird mithilfe von Schadensmarkern festgehalten. Falls ein solcher Charakter Schaden nimmt, wird die angegebene Menge an Schadensmarkern auf den Charakter gelegt.</li>
+<li>Sobald einem Charakter Schaden zugefügt wird, nimmt der Charakter Schaden.
+<ul>
+<li>Sobald die Menge an Schaden, die ein Effekt zufügt, modifiziert wird, wird auch die Menge an Schaden, die der Charakter nimmt, gleichermaßen modifiziert.</li>
+<li>Sobald die Menge an Schaden, die ein Charakter nimmt, modifiziert wird (z. B. durch das Verhindern von Schaden), wird die Menge an Schaden die zugefügt wird, nicht modifiziert.</li>
+<li>Die Reihenfolge bei der Abhandlung von Effekten, die sich um das Zufügen und Nehmen von Schaden drehen, ist wie folgt:
+<ol>
+<li>Fähigkeiten, die ausgelöst werden, „sobald [Charakter] eine beliebige Menge an Schaden zufügen/zugefügt würde …“</li>
+<li>Zäh-Statuskarten</li>
+<li>Fähigkeiten, die ausgelöst werden, „sobald [Charakter] eine beliebige Menge an Schaden nehmen würde …“</li>
+<li>Fähigkeiten, die ausgelöst werden, „sobald [Charakter] eine beliebige Menge an Schaden nimmt …“</li>
+<li>Platzierung des Schadens auf dem Charakter</li>
+<li>Fähigkeiten, die ausgelöst werden, „sobald [Charakter] besiegt werden würde …“</li>
+<li>Fähigkeiten, die ausgelöst werden, „sobald [Charakter] besiegt wird …“</li>
+<li>„Sobald besiegt“-Fähigkeiten</li>
+<li>Ablegen des besiegten Charakters</li>
+<li>Fähigkeiten, die ausgelöst werden, „nachdem [Charakter] eine beliebige Menge an Schaden zugefügt/genommen hat …“ oder „nachdem [Charakter] besiegt worden ist …“ oder nachdem [Charakter] … besiegt hat …“</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Siehe auch:</strong>
+<a href="./besiegt.html">Besiegt</a>,
+<a href="./indirekter-schaden.html">Indirekter Schaden</a>,
+<a href="./lebenspunkte.html">Lebenspunkte</a>,
+<a href="../%C3%BCberblick.html">Materialbeschränkung (Seite 2)</a>,
+Verhindern,
+Verschieben,
+Zäh</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="appendices/ii_setup.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../rules/rundenstruktur.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../rules/scharmützelmodus.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -168,10 +202,13 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="appendices/ii_setup.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../rules/rundenstruktur.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../rules/scharmützelmodus.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -200,13 +237,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
